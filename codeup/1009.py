@@ -1,1 +1,2 @@
-민균화이팅
+n = input()
+print("{}".format(n))

@@ -1,1 +1,1 @@
-민균화이팅
+print("\"Hello World\" ")

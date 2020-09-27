@@ -1,1 +1,1 @@
-민균화이팅
+print("\"C:\Download\hello.cpp\"")
