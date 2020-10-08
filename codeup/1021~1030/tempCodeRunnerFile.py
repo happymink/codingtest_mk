@@ -1,2 +1,2 @@
-for i in b:
-#     print(" \' "+b[i]+ " \' ")
+a = input().split(':')
+print(a[1])
