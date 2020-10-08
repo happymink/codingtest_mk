@@ -1,1 +1,2 @@
-민균화이팅
+a =int(input())
+print(a)
