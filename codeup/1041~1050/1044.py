@@ -1,1 +1,2 @@
-후회없이 열심히
+a = input()
+print(int(a)+1)
