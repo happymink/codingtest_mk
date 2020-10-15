@@ -1,1 +1,2 @@
-후회없이 열심히
+a,b = input().split(" ")
+print(int(a)<<int(b))

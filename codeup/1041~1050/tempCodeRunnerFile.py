@@ -1,11 +1,7 @@
-import math
-a,b = input().split(' ')
+a,b = input().split(" ")
 a = int(a)
 b = int(b)
-print(a+b)
-print(a-b)
-print(a*b)
-print(a//b)
-print(a%b)
-print(round(a/b,2))
-
+if a>b:
+    print("1")
+else:
+    print("0")
