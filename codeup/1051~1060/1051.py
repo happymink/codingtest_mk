@@ -1,1 +1,9 @@
-가만히 있으면서 변화를 바라지 말자
+a,b = input().split(" ")
+
+a = int(a)
+b = int(b)
+
+if b>=a:
+    print("1")
+else:
+    print("0")
