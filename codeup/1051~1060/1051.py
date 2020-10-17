@@ -1,9 +1,6 @@
-a,b = input().split(" ")
+a[3] = {0,0,0}
+b[3] = {0,0,0}
+c[3] = {0,0,0}
 
-a = int(a)
-b = int(b)
-
-if b>=a:
-    print("1")
-else:
-    print("0")
+a = input().split(" ")
+    
