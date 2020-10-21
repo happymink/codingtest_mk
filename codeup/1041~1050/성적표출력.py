@@ -1,5 +1,7 @@
-a[3] = {0,0,0}
-b[3] = {0,0,0}
-c[3] = {0,0,0}
-d= 2
-#소프트웨어공학 공부하자
+a,b,c = input().split(" ")
+
+def sum():
+    d = int(a)+int(b)+int(c)
+    print("세 정수의 합은 = {} 입니다".format(d))
+
+sum()
