@@ -1,6 +1,1 @@
-a = input()
-b = input()
-c = input()
-print(a)
-print(b)
-print(b,c)
+if 
