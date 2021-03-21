@@ -4,4 +4,4 @@ if a in ["a","b","c"]:
 else:
     print("a가 배열안에 없습니다")
 
-print("hello")
+print("hello world")
