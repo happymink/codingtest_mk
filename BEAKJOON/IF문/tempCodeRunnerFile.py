@@ -1,0 +1,1 @@
+if ALARM_TIME//60 < 0:
