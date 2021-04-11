@@ -1,0 +1,2 @@
+H , M= input().split(" ")
+
