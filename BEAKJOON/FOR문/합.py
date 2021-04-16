@@ -1,6 +1,6 @@
-count = input()
+num = int(input())
 
-for i in range(0,int(count)):
-    A, B = input().split(" ")
-    print(int(A)+int(B))
-       print(int(A)+int(B))
+for i in range(0,num):
+    num += i
+
+print(num)

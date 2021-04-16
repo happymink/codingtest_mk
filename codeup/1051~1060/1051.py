@@ -1,5 +1,12 @@
-year = input("오늘의 연도를 입력하시오.:")
-month = input("오늘의 월을 입력하시오.:")
-day = input("오늘의 일을 입력하시오.:")
+import random 
 
-print("오늘은 {}년 {}월 {}일입니다.".format(year,month,day))
+print("동전던지기 게임을 시작합니다.")
+
+result = random.randrange(2)
+
+if result == 1:
+    print("앞면입니다")
+else:
+    print("뒷면입니다.")
+
+print(result)
