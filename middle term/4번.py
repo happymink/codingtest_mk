@@ -1,3 +1,7 @@
+# 작성일 : 2021 04 22
+# 작성자 : 20174176 이민균
+# 문제 4 : 암호프로그램 만들기
+
 my_string = input("평문을 입력하세요: ")
 length = len(my_string) # 문자열의 길이 측정
 reverse_string = '' #역 문자열 생성

@@ -1,3 +1,7 @@
+# 작성일 : 2021 04 22
+# 작성자 : 20174176 이민균
+# 문제 5 : 주민등록번호 분석
+
 import time
 import sys
 from datetime import datetime

@@ -1,3 +1,7 @@
+# 작성일 : 2021 04 22
+# 작성자 : 20174176 이민균
+# 문제 2 : 2차 방정식의 근 계산
+
 import math
 import sys
 import turtle as t
