@@ -1,5 +1,6 @@
 class Solution {
     public int[] solution(String my_string) {
+        
         char[] ary = my_string.toCharArray();
         int[] answer = new int[52];
 
