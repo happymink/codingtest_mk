@@ -58,7 +58,6 @@ class Solution {
             
             int nr ;
             int nc ;
-            boolean flag = false;
             
             int tempr = r;
             int tempc = c;
@@ -70,13 +69,11 @@ class Solution {
                 if(nr >= 0 && nr < park.length && nc >= 0 && nc < park[0].length()){
                     if(board[nr][nc] == 0){
                         System.out.println(j+1 + "번째 이동이 유효합니다.");
-                        flag = true;
                         r = nr;
                         c = nc;
                         continue;
                     }
                     System.out.println(j+1 + "번째 이동이 유효하지 않습니다.");
-                    flag = false;
                     r = tempr;
                     c = tempc;
                     break;
