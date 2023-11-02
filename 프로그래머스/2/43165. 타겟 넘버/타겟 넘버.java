@@ -4,13 +4,13 @@ class Solution {
         int answer = 0;
         Queue<Integer> Q = new LinkedList();
         Q.offer(0);
-        boolean flag = true;
+
         int L = 0;
         while(!Q.isEmpty()){
             int len = Q.size();
             for(int i = 0; i<len; i++){
                 int num = Q.poll();
-                int sum =num;
+            
                 if(L == numbers.length && num == target){
                     answer++;
                 }
